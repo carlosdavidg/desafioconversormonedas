@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.divprincipal {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding: 4%;
+
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    background-color: #4477dd;
+    color: #ffffff;
+    width: 25vw;
+    height: 50vh;
+    border-radius: 10px;
+    align-items: center;
+    
+}
+
+#containerchart {
+    border: 1px solid black;
+    width: 70vw;
+    height: 70vh;
+    margin-left: 30px;
+
+}
+
+#container h1 {
+    text-align: center;
+    padding: 35px;
+    margin: 20px;
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+}
+
+#caja1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#caja1 > * {
+    text-align: center;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+#caja1 input {
+    cursor: pointer;
+
+}
+
+#chartContainer {
+    width: 50%;
+    margin-left: 100px;
+    border-radius: 10px;
+}

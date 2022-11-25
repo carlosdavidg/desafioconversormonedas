@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío Conversor de Monedas</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="divprincipal">
+        <div id="container">
+            <h1>Conversor de Monedas Nacional</h1>
+            <div id="caja1">
+                <h2>Peso Chileno (CLP)</h2>
+                <input id="inputClp">
+                <p>Convertir a:</p>
+                    <select id="selectMonedas">
+                        <option disabled selected>Seleccione una moneda</option>
+                        <option value="dolar">Dolar Americano</option>
+                        <option value="euro">Euro</option>
+                        <option value="uf">UF</option>
+                    </select> 
+                <input id="botonConvertir" type="button" value="Convertir">
+                <p id="parrafoTotalizar"></p>
+            </div>
+        </div>
+        <div id="chartContainer">
+                <canvas id="myChart"></canvas>
+        </div>
+
+    </div>
+    <script src="assets/script.js"></script>
+</body>
+</html>
